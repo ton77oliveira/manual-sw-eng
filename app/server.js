@@ -54,4 +54,4 @@ const server = http.createServer(async (req, res) => {
     const body = await fs.readFile(file); res.writeHead(200, { 'content-type': types[path.extname(file)] || 'application/octet-stream' }); res.end(body);
   } catch (error) { json(res, { error: 'Erro interno' }, 500); console.error(error.message); }
 });
-server.listen(port, '0.0.0.0', () => console.log(`Manual SW ENF em http://localhost:${port}`));
+server.listen(port, '0.0.0.0', () => console.log(`Manual SW ENG em http://localhost:${port}`));

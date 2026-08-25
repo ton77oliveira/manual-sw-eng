@@ -1,4 +1,4 @@
-# Manual SW ENF
+# Manual SW ENG
 
 Personal Engineering Operating System: playbook, base de conhecimento e integração segura com OpenCode.
 
@@ -11,8 +11,8 @@ Personal Engineering Operating System: playbook, base de conhecimento e integra�
 ## Instalação rápida
 
 ```bash
-git clone <URL_PRIVADA_DO_REPOSITORIO> manual-sw-enf
-cd manual-sw-enf
+git clone https://github.com/ton77oliveira/manual-sw-eng.git manual-sw-eng
+cd manual-sw-eng
 cp .env.example .env
 docker compose up -d --build
 ```

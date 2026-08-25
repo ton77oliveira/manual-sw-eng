@@ -1,5 +1,5 @@
 services:
-  manual-sw-enf:
+  manual-sw-eng:
     build: .
     restart: unless-stopped
     ports:
