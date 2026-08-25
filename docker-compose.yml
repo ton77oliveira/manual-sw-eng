@@ -1,0 +1,13 @@
+services:
+  manual-sw-enf:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      PORT: 3000
+      KNOWLEDGE_DIR: /app/knowledge
+      PROJECTS_DIR: /app/projects
+    volumes:
+      - ./knowledge:/app/knowledge
+      - ./projects:/app/projects
